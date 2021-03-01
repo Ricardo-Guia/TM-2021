@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Exercicio </title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <title>Exercicio </title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
 </head>
 <body>
-    <div class="content">
-        <input id = "inputText" class =" " onclick type ="text">
-        <button id = "" class =" " onclick = "readInputFromText()" >Ler</button>
+<div class="content">
+  <input id="inputNumber" class=" " onclick type="number">
+  <button id="" class=" " onclick="addNumberFromInput()">Adicionar</button>
+  <br>
+  Adicionados : <span id="viewerNumber" class=" "></span>
 
-      <span id = "viewerText" class =" " ></span>
-    </div>
+  <br>
+  <button onclick=" calculateMaxNumberFromArray() " > Calcular </button><br>
+  Maior Número: <span id="maxNumber"></span>
+</div>
+
 </body>
 </html>
