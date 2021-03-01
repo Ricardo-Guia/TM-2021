@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1272e49-628e-482c-869a-51c52832e336" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Aula 2/exercicio1/PedroSilva-23447/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 2/exercicio1/PedroSilva-23447/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 2/exercicio1/PedroSilva-23447/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 2/exercicio2/PedroSilva-23447/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 2/exercicio2/PedroSilva-23447/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 2/exercicio2/PedroSilva-23447/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +39,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Aula 2/exercicio2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Aula 2/exercicio2/PedroSilva-23447" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pedro\Documents\IPVC\TM\Aula 01\TM-2021\Aula 2\exercicio2\PedroSilva-23447" />
       <recent name="C:\Users\pedro\Documents\IPVC\TM\Aula 01\TM-2021\Aula 2\exercicio2" />
       <recent name="C:\Users\pedro\Documents\IPVC\TM\Aula 01\TM-2021\Aula 2\exercicio1" />
     </key>
@@ -76,7 +71,7 @@
       <updated>1614010303894</updated>
       <workItem from="1614010309323" duration="1796000" />
       <workItem from="1614613541814" duration="75000" />
-      <workItem from="1614613740777" duration="2306000" />
+      <workItem from="1614613740777" duration="3717000" />
     </task>
     <servers />
   </component>
