@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Aula 2/exercicio1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Aula 2/exercicio2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -41,6 +41,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Paulo Garrido\Documents\GitHub\TM-2021\Aula 2\exercicio2" />
       <recent name="C:\Users\Paulo Garrido\Documents\GitHub\TM-2021\Aula 2\exercicio1" />
     </key>
   </component>
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614010280938</updated>
       <workItem from="1614010282723" duration="2103000" />
-      <workItem from="1614613588483" duration="2138000" />
+      <workItem from="1614613588483" duration="3814000" />
     </task>
     <servers />
   </component>
