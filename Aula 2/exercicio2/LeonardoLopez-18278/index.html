@@ -7,8 +7,15 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="content">
-        Template
-    </div>
+<div class="content">
+    <label class="titles">Inserir números</label><br>
+    <input id="inputNumber" type="number">
+    <button id="btnAdd" class="button" onclick="addNumber()">Adicionar: </button>
+    <br>
+    <span id="textoAdd"></span> <label id="viewNumbers"></label><br><br>
+    <button id="btnCalc" class="button" onclick="getBigNumber()" style="display: none;">Calcular</button><br>
+    <span id="textoMaior"></span><span id="viewBigger"></span>
+
+</div>
 </body>
 </html>
