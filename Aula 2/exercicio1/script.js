@@ -3,8 +3,10 @@
     var text = document.getElementById('texto').value;
 
     if(!text){
-        alert("Escreve algo")
+        alert("Escreve algo");
+    }else{
+        document.getElementById('textoFromInput').innerText = text;
     }
 
-        document.getElementById('textoFromInput').innerText = text
-    }
+
+}
