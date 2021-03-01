@@ -1,4 +1,3 @@
-var mensagem = 'Hello Word!'
+const mensagem = 'Hello Word!'
 
 console.log(mensagem)
-alert(mensagem)
