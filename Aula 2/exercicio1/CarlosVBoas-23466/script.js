@@ -4,7 +4,7 @@ function readInput() {
 	//alert("readInput")
 	const text = document.getElementById("texto").value;
 
-	if(!text) {
+	if (!text) {
 		alert("Escreva texto no input")
 	} else {
 		document.getElementById("textoFromInput").innerText = text
