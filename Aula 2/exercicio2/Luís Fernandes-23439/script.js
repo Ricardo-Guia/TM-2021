@@ -1,11 +1,23 @@
 // Your JS Script here
 
-function readInputFromText(){
-    const textFromInput = document.getElementById("inputText").value
+let numbersArray = []
+
+function addNumberFromInput(){
+    const textFromInput = document.getElementById("inputNumber").value
     if(textFromInput){
-        document.getElementById("viewText").innerText = textFromInput
-    }
-    else{
+        numbersArray.push(textFromInput)
+        document.getElementById("viewerNumber").innerText = numbersArray.join(", ");
+    }else{
         alert("Escreva algo no input")
     }
+}
+
+function calculateMaxNumberFromArray(){
+    if(numbersArray.length>=5){
+        const maxNumber = numbersArray.reduce((a,b) => Math.max(a,b));
+        document.getElementById("maxNumber").innerText = maxNumber
+    }else{
+        alert("Escreva 5 ou mais elementos")
+    }
+
 }
