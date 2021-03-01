@@ -5,4 +5,7 @@ function readInputFromText(){
     if(textFromInput){
         document.getElementById("viewText").innerText = textFromInput
     }
+    else{
+        alert("Escreva algo no input")
+    }
 }
