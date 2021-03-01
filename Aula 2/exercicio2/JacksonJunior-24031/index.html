@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="content">
+    <label>Números</label> <input id="inputNumber" type="number">
+    <button onclick="addNumberFromInput()">Adicionar</button>
+    <button onclick="clearArray()">Limpar</button>
+    <p>
+        Adicionados:
+        <span id="viewerNumber">  </span>
+    </p>
+    <div id="calcMaxBox" hidden>
+        <button onclick="calculeteMaxNumberFromArray()">Calcular</button>
+        <p>
+            Maior Número:
+            <span id="maxNumber">  </span>
+        </p>
+    </div>
+</div>
+</body>
+</html>
