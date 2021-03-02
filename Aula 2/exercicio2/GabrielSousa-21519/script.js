@@ -15,8 +15,3 @@ document.getElementById("buttonCalcNumbers").addEventListener("click", () => {
     return Math.max(a, b);
   })
 })
-
-
-
-
-
