@@ -33,12 +33,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Aula 3/exercicio4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Aula 2/exercicio2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MIGUEL AMORIM\Documents\GitHub\TM-2021\Aula 1\aula1-MiguelAmorim-23429\TM-2021\Aula 2\exercicio2" />
+      <recent name="C:\Users\MIGUEL AMORIM\Documents\GitHub\TM-2021\Aula 1\aula1-MiguelAmorim-23429\TM-2021\Aula 2\exercicio1" />
       <recent name="C:\Users\MIGUEL AMORIM\Documents\GitHub\TM-2021\Aula 1\aula1-MiguelAmorim-23429\TM-2021\Aula 3\exercicio4" />
       <recent name="C:\Users\MIGUEL AMORIM\Documents\GitHub\TM-2021\Aula 1\aula1-MiguelAmorim-23429\TM-2021\Aula 3\exercicio 3" />
     </key>
@@ -48,13 +50,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.script.js">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,7 +86,8 @@
       <updated>1614030208056</updated>
       <workItem from="1614030209802" duration="673000" />
       <workItem from="1614618727406" duration="1126000" />
-      <workItem from="1615224227119" duration="6513000" />
+      <workItem from="1615224227119" duration="7400000" />
+      <workItem from="1615232558644" duration="1191000" />
     </task>
     <servers />
   </component>
