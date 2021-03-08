@@ -45,21 +45,6 @@
       <recent name="C:\Users\Paulo Garrido\Documents\GitHub\TM-2021\Aula 2\exercicio1" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1614010280938</updated>
       <workItem from="1614010282723" duration="2103000" />
-      <workItem from="1614613588483" duration="3814000" />
+      <workItem from="1614613588483" duration="4331000" />
+      <workItem from="1614784441068" duration="24000" />
     </task>
     <servers />
   </component>
