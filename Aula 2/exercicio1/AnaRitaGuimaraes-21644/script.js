@@ -1,10 +1,10 @@
 // Your JS Script here
 
-function readImputFromText() {
-    const textFromImput = document.getElementById("imputText").value;
-    if (textFromImput) {
-        document.getElementById("viewerText").innerText = textFromImput;
+function readInputFromText() {
+    const textFromInput = document.getElementById("inputText").value;
+    if (textFromInput) {
+        document.getElementById("viewerText").innerText = textFromInput;
     } else {
-        alert("Escreva algo no imput");
+        alert("Escreva algo no input");
     }
 }
