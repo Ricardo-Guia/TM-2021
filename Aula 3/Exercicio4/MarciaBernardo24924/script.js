@@ -10,7 +10,7 @@ function addImage(){
 
     const images = document.getElementById("images")
     images.appendChild(img)
-    
+
 }
 
 function delImage(){
