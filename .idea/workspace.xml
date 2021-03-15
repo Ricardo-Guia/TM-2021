@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1272e49-628e-482c-869a-51c52832e336" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Aula 3/exercicio3/PedroSilva-23447/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 3/exercicio3/PedroSilva-23447/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 3/exercicio3/PedroSilva-23447/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 3/exercicio4/PedroSilva-23447/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 3/exercicio4/PedroSilva-23447/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Aula 3/exercicio4/PedroSilva-23447/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 2/exercicio2/PedroSilva-23447/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 2/exercicio2/PedroSilva-23447/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 2/exercicio2/PedroSilva-23447/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 2/exercicio2/PedroSilva-23447/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/Exercice1-Phaser3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/dude.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/sky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/scripts/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +64,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Aula1-exercicio/Aula 2/exercicio2/PedroSilva-23447/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -98,6 +85,8 @@
       <workItem from="1614613541814" duration="75000" />
       <workItem from="1614613740777" duration="3717000" />
       <workItem from="1615218547295" duration="3220000" />
+      <workItem from="1615823786183" duration="2548000" />
+      <workItem from="1615826855081" duration="6000" />
     </task>
     <servers />
   </component>
