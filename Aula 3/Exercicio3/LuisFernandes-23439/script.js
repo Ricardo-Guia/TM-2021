@@ -23,7 +23,7 @@ function listAttributes(){
 }
 
 function changeColorOfTitles(){
-	const elementsByClass= document.getElementsByClassName("titulo")
+	const elementsByClass = document.getElementsByClassName("titulo")
 	for(let element of elementsByClass){
 		element.style.color = "red"
 	}
