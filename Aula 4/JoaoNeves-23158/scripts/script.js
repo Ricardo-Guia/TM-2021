@@ -146,7 +146,7 @@ function collectStar (player, star)
         var bomb = bombs.create(x, 16, 'bomb');
         bomb.setBounce(1);
         bomb.setCollideWorldBounds(true);
-        bomb.setVelocity(/*Phaser.Math.Between(-200, 200)*/2000, 20);
+        bomb.setVelocity(/*Phaser.Math.Between(-200, 200)*/2000, 2000);
     }
 }
 
