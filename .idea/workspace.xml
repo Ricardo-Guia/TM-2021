@@ -50,6 +50,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.script.js">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercicio1/Aula 3/exercicio 3/migueLAmorim-23429/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -77,6 +88,7 @@
       <workItem from="1615232558644" duration="1787000" />
       <workItem from="1615299175200" duration="1003000" />
       <workItem from="1615846175893" duration="523000" />
+      <workItem from="1616433055193" duration="5674000" />
     </task>
     <servers />
   </component>
