@@ -87,7 +87,7 @@ function create() {
     null, this);
 
   scoreText = this.add.text(16, 16, 'score: 0', {
-    fontSize: '32 px', fill: '#000'
+    fontSize: '32px', fill: '#000'
   });
 
   bombs = this.physics.add.group();
