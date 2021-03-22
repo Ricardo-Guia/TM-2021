@@ -32,7 +32,6 @@ readAtributtes = () =>  {
 
         const titles = document.getElementsByClassName("titulo")
         for(let title of titles) {
-
             title.style.color = "red";
         }
     }
