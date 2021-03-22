@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1272e49-628e-482c-869a-51c52832e336" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Aula 4/Resolução/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/Exercice1-Phaser3.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/dude.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/platform.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/sky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/assets/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula 4/Rename with Name-Number/scripts/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Resolução/Exercice1-Phaser3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 4/Resolução/Exercice1-Phaser3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Resolução/assets/sky.png" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 4/Resolução/assets/sky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aula 4/Resolução/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aula 4/Resolução/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Aula 3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,6 +83,8 @@
       <workItem from="1615218547295" duration="3220000" />
       <workItem from="1615823786183" duration="2548000" />
       <workItem from="1615826855081" duration="6000" />
+      <workItem from="1616428436354" duration="788000" />
+      <workItem from="1616429271776" duration="699000" />
     </task>
     <servers />
   </component>
