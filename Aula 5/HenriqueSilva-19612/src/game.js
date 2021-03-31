@@ -48,7 +48,7 @@ gameScene.create = function () {
   });
 
   // scale enemies
-  Phaser.Actions.ScaleXY(this.enemies.getChildren(), -0.5, -0.5);
+  Phaser.Actions.ScaleXY(this.enemies.getChildren(), -0.9, -0.9);
 
   // set speeds
   Phaser.Actions.Call(this.enemies.getChildren(), function (enemy) {
@@ -71,7 +71,7 @@ gameScene.create = function () {
 gameScene.update = function () {
   // treasure collision
   if (Phaser.Geom.Intersects.RectangleToRectangle(this.player.getBounds(), this.treasure.getBounds())) {
-    this.gameOver();
+
   }
 // check for active input
   if (this.input.activePointer.isDown) {
