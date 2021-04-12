@@ -123,11 +123,6 @@ gameScene.update = function() {
     }
   }
 };
-// end the game
-gameScene.gameOver = function() {
-  // restart the scene
-  this.scene.restart();
-}
 
 gameScene.gameOver = function() {
   // flag to set player is dead
