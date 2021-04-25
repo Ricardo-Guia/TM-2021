@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JumpJump</title>
+    <style type="text/css">
+		body {
+            background: #000000;
+		}
+    </style>
+
+<main id="game"></main>
+<script type="text/javascript" src="phaser.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<!-- <script type="text/javascript" src="Splash.js"></script> -->
+<script type="text/javascript" src="gamemenu.js"></script>
+<script type="text/javascript" src="Game.js"></script>
+<script type="text/javascript" src="credits.js"></script>
+<script type="text/javascript" src="options.js"></script>
+<script type="text/javascript" src="gameover.js"></script>
+<script type="text/javascript" src="score.js"></script>
+
+</head>
+<body>
+
+  <script src="https://connect.facebook.net/en_US/fbinstant.6.2.js"></script>
+  <script>
+    FBInstant.initializeAsync().then(function(){
+      FBInstant.setLoadingProgress(100);
+      FBInstant.startGameAsync().then(() => console.log("game started"))
+    });
+  </script>
+
+</body>
+</html>
