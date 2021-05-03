@@ -258,7 +258,6 @@ class playGame extends Phaser.Scene{
             // a simple tween, much simpler than the one used to animate clouds
             this.growTween = this.tweens.add({
                 targets: [this.pole],
-
                 // we tween display height. We also add 50 extra pixels
                 displayHeight: maxPoleWidth + 50,
                 duration: gameOptions.poleGrowTime,
