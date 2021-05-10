@@ -1,147 +1,65 @@
-// create a new scene named "Game"
-let gameScene = new Phaser.Scene('Game');
+// In Phaser v3.16+ you probably want to use the ScaleManager instead.
 
+console.clear();
 
-gameScene.init = function() {
-  this.playerSpeed = 1.5;
-  this.enemyMaxY = 280;
-  this.enemyMinY = 80;
-}
+console.clear();
 
+document.getElementById("version").textContent = "Phaser v" + Phaser.VERSION;
 
-// load asset files for our game
-gameScene.preload = function() {
-  // load images
-  this.load.image('background', 'assets/background.png');
-  this.load.image('player', 'assets/player.png');
-  this.load.image('dragon', 'assets/dragon.png');
-  this.load.image('treasure', 'assets/treasure.png');
+var config = {
+  type: Phaser.AUTO,
+  width: 800,
+  height: 600,
+  parent: 'play',
+  loader: {
+    baseURL: "https://labs.phaser.io",
+    crossOrigin: "anonymous"
+  },
+  scene: {
+    init: init,
+    preload: preload,
+    create: create
+  }
 };
 
-// executed once, after assets were loaded
-gameScene.create = function() {
-  // background
-  let bg = this.add.sprite(0, 0, 'background');
+var fullscreenFunc = null;
 
-  // player
-  this.player = this.add.sprite(40, this.sys.game.config.height / 2, 'player');
-  // scale down
-  this.player.setScale(0.5);
+new Phaser.Game(config);
 
-  // change origin to the top-left of the sprite
-  bg.setOrigin(0,0);
+document.querySelector('#play').addEventListener('click', function() {
+  if(fullscreenFunc !== null) fullscreenFunc()
+});
 
-  // goal
-  this.treasure = this.add.sprite(this.sys.game.config.width - 80, this.sys.game.config.height / 2, 'treasure');
-  this.treasure.setScale(0.6);
+function init ()
+{
+  var canvas = this.sys.game.canvas;
+  var fullscreen = this.sys.game.device.fullscreen;
 
-  this.enemies = this.add.group({
-    key: 'dragon',
-    repeat: 5,
-    setXY: {
-      x: 110,
-      y: 100,
-      stepX: 80,
-      stepY: 20
-    }
-  });
-
-  // scale enemies
-  Phaser.Actions.ScaleXY(this.enemies.getChildren(), -0.5, -0.5);
-
-  // set speeds
-  Phaser.Actions.Call(this.enemies.getChildren(), function(enemy) {
-    enemy.speed = Math.random() * 2 + 1;
-  }, this);
-
-  // player is alive
-  this.isPlayerAlive = true;
-
-  // reset camera effects
-  this.cameras.main.resetFX();
-
-};
-
-
-
-
-
-// executed on every frame (60 times per second)
-gameScene.update = function() {
-  // check for active input
-  if (this.input.activePointer.isDown) {
-    // player walks
-    this.player.x += this.playerSpeed;
-  }
-
-  // treasure collision
-  if (Phaser.Geom.Intersects.RectangleToRectangle(this.player.getBounds(), this.treasure.getBounds())) {
-    this.gameOver();
-  }
-
-
-  // enemy movement
-  let enemies = this.enemies.getChildren();
-  let numEnemies = enemies.length;
-
-  for (let i = 0; i < numEnemies; i++) {
-
-    // move enemies
-    enemies[i].y += enemies[i].speed;
-
-    // reverse movement if reached the edges
-    if (enemies[i].y >= this.enemyMaxY && enemies[i].speed > 0) {
-      enemies[i].speed *= -1;
-    } else if (enemies[i].y <= this.enemyMinY && enemies[i].speed < 0) {
-      enemies[i].speed *= -1;
-    }
-    // enemy collision
-    if (Phaser.Geom.Intersects.RectangleToRectangle(this.player.getBounds(), enemies[i].getBounds())) {
-      this.gameOver();
-      break;
-  }
-}
-
-  // only if the player is alive
-  if (!this.isPlayerAlive) {
+  if (!fullscreen.available)
+  {
     return;
   }
 
-};
-
-
-
-
-
-
-// end the game
-gameScene.gameOver = function() {
-
-  // flag to set player is dead
-  this.isPlayerAlive = false;
-
-  // shake the camera
-  this.cameras.main.shake(500);
-
-  // fade camera
-  this.time.delayedCall(250, function() {
-    this.cameras.main.fade(250);
-  }, [], this);
-
-  // restart the scene
-  this.time.delayedCall(500, function() {
-    this.scene.restart();
-  }, [], this);
+  canvas[fullscreen.request]();
 }
 
+function preload ()
+{
+  this.load.image('space', 'assets/background.png');
+}
 
-// our game's configuration
-let config = {
-  type: Phaser.AUTO,
-  width: 640,
-  height: 360,
-  scene: gameScene
-};
-
-// create the game, and pass it the configuration
-let game = new Phaser.Game(config);
+function create ()
+{
+  this.add.sprite(400, 300, 'space');
+  logo.setInteractive()
+  logo.on('pointerover', function() {
+    var canvas = this.sys.game.canvas;
+    var fullscreen = this.sys.game.device.fullscreen;
+    fullscreenFunc = function() {
+      canvas[fullscreen.request]()
+    }
+  }, this)
+  logo.on('pointerout', function() {
+    fullscreenFunc = null
+  })
+}

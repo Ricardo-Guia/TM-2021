@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #111111;
+    font: caption;
+}
+
+button {
+    font: small-caption;
+}
+
+canvas {
+    display: block;
+}
+
+#version {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
