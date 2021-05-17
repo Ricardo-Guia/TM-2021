@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (c) 2017 Razeware LLC
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -43,9 +43,10 @@ public class Player : MonoBehaviour
     public bool canDropBombs = true;
     //Can the player drop bombs?
     public bool canMove = true;
+    public bool dead = false;
     //Can the player move?
 
-    private int bombs = 2;
+  private int bombs = 2;
     //Amount of bombs the player has left to drop, gets decreased as the player
     //drops a bomb, increases as an owned bomb explodes
 
@@ -57,8 +58,10 @@ public class Player : MonoBehaviour
     private Transform myTransform;
     private Animator animator;
 
-    // Use this for initialization
-    void Start ()
+    public GlobalStateManager globalManager;
+
+  // Use this for initialization
+  void Start ()
     {
         //Cache the attached components for better performance and less typing
         rigidBody = GetComponent<Rigidbody> ();
@@ -177,15 +180,22 @@ public class Player : MonoBehaviour
     {
         if (bombPrefab)
         { //Check if bomb prefab is assigned first
+      Instantiate(bombPrefab, new Vector3(Mathf.RoundToInt(myTransform.position.x),
+      bombPrefab.transform.position.y, Mathf.RoundToInt(myTransform.position.z)),
+      bombPrefab.transform.rotation);
 
-        }
+
     }
+  }
 
     public void OnTriggerEnter (Collider other)
     {
         if (other.CompareTag ("Explosion"))
         {
             Debug.Log ("P" + playerNumber + " hit by explosion!");
-        }
+            dead = true; // 1
+            globalManager.PlayerDied(playerNumber); // 2
+            Destroy(gameObject); // 3
     }
+  }
 }
