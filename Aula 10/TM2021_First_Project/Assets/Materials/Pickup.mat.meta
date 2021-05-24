@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: da047ec2f868ebb4aa4f4f87407e9a1f
+=======
+<<<<<<< HEAD:Aula 12/Resolucao Bomberman/Assets/Materials/New Material.mat.meta
+guid: b0609dcdef790664abfb462240a10d7c
+=======
+guid: da047ec2f868ebb4aa4f4f87407e9a1f
+>>>>>>> 8d2c06a921177753b808de781d103331d063db3f:Aula 10/TM2021_First_Project/Assets/Materials/Pickup.mat.meta
+>>>>>>> 8d2c06a921177753b808de781d103331d063db3f
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 2100000
