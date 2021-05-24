@@ -177,7 +177,7 @@ public class Player : MonoBehaviour
     {
         if (bombPrefab)
         { //Check if bomb prefab is assigned first
-
+        Instantiate (bombPrefab, myTransform.position, bombPrefab.transform.rotation);
         }
     }
 
