@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: b80a55d674e533843846017c4095db76
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: PlayerIdle
+  - first:
+      74: 5987286527781595846
+    second: PlayerWalk
+  - first:
+      74: 2178512957267643544
+    second: PlayerRun
+  - first:
+      74: 1682254696296095467
+    second: PlayerJump
+  - first:
+      74: -4255719106891854576
+    second: PlayerFall
+  - first:
+      74: -6842059494565774769
+    second: PlayerLand
+  - first:
+      74: 5338085979168867157
+    second: PlayerMelee
+  - first:
+      74: 1588608455044442394
+    second: PlayerNeutral
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soldierMaterial
+    second: {fileID: 2100000, guid: d7c5ed3429939d3429137178a92bc10c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PlayerIdle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: PlayerWalk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 76
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: PlayerRun
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 101
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: PlayerJump
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 121
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: PlayerFall
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 125
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: PlayerLand
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 129
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: master
+        weight: 0
+      - path: master/rig
+        weight: 0
+      - path: master/rig/bx_root
+        weight: 0
+      - path: master/rig/bx_root/bn_lower_spine
+        weight: 0
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_fingers_1_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_fingers_1_L/bn_fingers_2_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_fingers_1_L/bn_fingers_2_L/bn_fingers_3_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_index_1_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_index_1_L/bn_index_2_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_index_1_L/bn_index_2_L/bn_index_3_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_thumb_1_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_thumb_1_L/bn_thumb_2_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_fingers_1_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_fingers_1_R/bn_fingers_2_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_fingers_1_R/bn_fingers_2_R/bn_fingers_3_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_index_1_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_index_1_R/bn_index_2_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_index_1_R/bn_index_2_R/bn_index_3_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_thumb_1_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_thumb_1_R/bn_thumb_2_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_neck
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_neck/bx_jaw_1
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_neck/bx_jaw_1/bn_jaw
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_crotch
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L/bn_knee_L
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L/bn_knee_L/bn_ankle_L
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L/bn_knee_L/bn_ankle_L/bn_ball_L
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L/bn_knee_L/bn_ankle_L/bn_ball_L/bx_toe_L
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R/bn_knee_R
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R/bn_knee_R/bn_ankle_R
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R/bn_knee_R/bn_ankle_R/bn_ball_R
+        weight: 0
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R/bn_knee_R/bn_ankle_R/bn_ball_R/bx_toe_R
+        weight: 0
+      - path: soldier
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: PlayerMelee
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 140
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: master
+        weight: 1
+      - path: master/rig
+        weight: 1
+      - path: master/rig/bx_root
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_fingers_1_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_fingers_1_L/bn_fingers_2_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_fingers_1_L/bn_fingers_2_L/bn_fingers_3_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_index_1_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_index_1_L/bn_index_2_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_palm_L/bn_index_1_L/bn_index_2_L/bn_index_3_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_thumb_1_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_L/bn_shoulder_L/bn_elbow_L/bn_wrist_L/bn_hand_L/bn_thumb_1_L/bn_thumb_2_L
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_fingers_1_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_fingers_1_R/bn_fingers_2_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_fingers_1_R/bn_fingers_2_R/bn_fingers_3_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_index_1_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_index_1_R/bn_index_2_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_palm_R/bn_index_1_R/bn_index_2_R/bn_index_3_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_thumb_1_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_clavical_R/bn_shoulder_R/bn_elbow_R/bn_wrist_R/bn_hand_R/bn_thumb_1_R/bn_thumb_2_R
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_neck
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_neck/bx_jaw_1
+        weight: 1
+      - path: master/rig/bx_root/bn_lower_spine/bn_spine/bn_neck/bx_jaw_1/bn_jaw
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_crotch
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L/bn_knee_L
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L/bn_knee_L/bn_ankle_L
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L/bn_knee_L/bn_ankle_L/bn_ball_L
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_L/bn_knee_L/bn_ankle_L/bn_ball_L/bx_toe_L
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R/bn_knee_R
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R/bn_knee_R/bn_ankle_R
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R/bn_knee_R/bn_ankle_R/bn_ball_R
+        weight: 1
+      - path: master/rig/bx_root/bx_Pelvis/bn_hip_R/bn_knee_R/bn_ankle_R/bn_ball_R/bx_toe_R
+        weight: 1
+      - path: soldier
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: PlayerNeutral
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
